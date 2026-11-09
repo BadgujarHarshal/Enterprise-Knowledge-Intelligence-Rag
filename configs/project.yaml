@@ -1,0 +1,21 @@
+project:
+  name: enterprise-knowledge-intelligence-rag
+  version: 0.1.0
+  environment: development
+
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  evaluation_dir: data/evaluation
+
+models:
+  embedding_dir: models/embeddings
+  reranker_dir: models/reranker
+
+api:
+  host: 127.0.0.1
+  port: 8000
+
+frontend:
+  host: 127.0.0.1
+  port: 8501
